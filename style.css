@@ -1,14 +1,41 @@
 h1{
 	text-align: center;
 }
-
-
+h2{
+	float: right;
+	margin-right: 460px;
+}
 .verticalnavbar{
 	list-style-type: none;
-	margin: 0;
+	float: left;
 	padding: 0;
 	display: block;
 }
-.verticallistitem{
 
+.nav-item{
+	width: 200px;
+	display: block;
+	background-color: #6495ED;
+	padding: 30px 0;
+	border: 1px solid black;
+	text-align: center;
+	margin-bottom: 10px;
 }
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+
+
+
