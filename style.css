@@ -29,6 +29,9 @@ img{
 	padding: 0px;
 	text-align: center;
 }
+.navbar a:link, a:visited{
+	color: white;
+}
 .nav-item{
 	font-family: Georgia;
 	display: inline;
@@ -42,7 +45,6 @@ img{
 a:link, a:visited{
 	text-align: center;
 	text-decoration: none;
-	color: white;
 }
 .bodytext{
 	border-style: solid;
@@ -86,7 +88,14 @@ a:link, a:visited{
 	height: 300px;
 	margin: 10px;
 }
+.bloglinks a{
+	color: green;
+}
+.bloglinks{
+	text-align: center;
+	list-style-type: none;
 
+}
 
 
 
